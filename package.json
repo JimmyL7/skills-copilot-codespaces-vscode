@@ -1,0 +1,17 @@
+{
+  "name": "skills-copilot-codespaces-vscode",
+  "version": "1.0.0",
+  "description": "My clone repository",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --check server.js && node --check script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:26831/JimmyL7/skills-copilot-codespaces-vscode"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
