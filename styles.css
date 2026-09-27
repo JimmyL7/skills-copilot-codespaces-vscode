@@ -1,0 +1,43 @@
+:root {
+  color-scheme: light dark;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  background: #f4f7fb;
+  color: #1a1a1a;
+}
+
+.weather-app {
+  width: min(90vw, 480px);
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.weather-form {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.weather-form input,
+.weather-form button {
+  font: inherit;
+  padding: 0.6rem;
+}
+
+.status {
+  min-height: 1.25rem;
+  margin-top: 0.75rem;
+}
+
+.weather-result {
+  margin-top: 1rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
